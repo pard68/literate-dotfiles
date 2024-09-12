@@ -1492,3 +1492,15 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #+END_SRC
+
+# NODEJS
+__Because Ian looooveeees Nodejs__
+```
+cd ~
+curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
+sudo chmod +x nodesource_setup.sh
+sudo ./nodesource_setup.sh
+echo 'Y' | sudo apt install nodejs
+nodejs -v
+sudo npm install pm2@latest -g
+```
